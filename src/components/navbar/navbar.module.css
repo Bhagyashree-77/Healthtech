@@ -1,0 +1,33 @@
+.container {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.links {
+  height:fit-content;
+  display:flex;
+  flex-direction: row; /* Arrange items vertically */
+  align-items: center;
+  
+  justify-items:vertical;
+    /* Space between items */
+  nav-right: calc();
+  padding: 50px;
+  gap: 10px;
+}
+
+.logout {
+  padding: 5px;
+  border: none;
+  background-color: #53c28b;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
